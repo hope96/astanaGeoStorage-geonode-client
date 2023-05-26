@@ -1,5 +1,6 @@
 {% load static %}
 {% load client_version %}
+{% load i18n %}
 <!DOCTYPE html>
 <html class="msgapi">
     <head>
@@ -43,10 +44,10 @@
                     <div class="gn-container">
                         <div id="gn-home-featured-resources-grid"></div>
                         <div class="resources-preheader">
-                            <h3>Топ слоёв и карт</h3>
+                            <h3>{% trans "Top layers and maps" %}</h3>
                             <div class="resources-preheader-sort">
-                                <div class="resources-sort-option active">Последние</div>
-                                <div class="resources-sort-option">Популярные</div>
+                                <div class="resources-sort-option active">{% trans "Latest" %}</div>
+                                <div class="resources-sort-option">{% trans "Popular" %}</div>
                             </div>
                         </div>
                         <div id="gn-home-resources-grid"></div>

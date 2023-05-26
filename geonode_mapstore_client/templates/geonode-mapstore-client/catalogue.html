@@ -23,7 +23,7 @@
 
         {% block extra_head %}
         {% endblock %}
-
+        <link href="/static/css/redesign.css" rel="stylesheet">
     </head>
 
     <body class="msgapi ms2" data-ms2-container="ms2" >
@@ -51,9 +51,6 @@
                     <script id="gn-script" src="{% static 'mapstore/dist/js/gn-catalogue.js' %}?{% client_version %}"></script>
                 {% endblock %}
 
-                {% block footer %}
-                    {% include './snippets/footer.html' %}
-                {% endblock %}
 
                 {% block scripts %}
                     <script src="{% static "lib/js/jquery.min.js" %}"></script>

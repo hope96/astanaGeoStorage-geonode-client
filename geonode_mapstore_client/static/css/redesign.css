@@ -23,9 +23,11 @@
     padding: 60px;
     padding-top: 20px;
 }
+.msgapi .gn-main-header{
+    position: initial;
+}
 .msgapi .gn-main-header .gn-menu .gn-menu-content{
-    padding: 0 60px;
-    padding-top: 20px;
+    padding: 20px 60px;
 }
 .msgapi .gn-main-header, .msgapi .gn-menu {
     background-color: transparent;
@@ -62,6 +64,7 @@ button#gn-language-selector {
 }
 .msgapi .main-screen-white-btn {
     background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
     padding: 15px 20px;
     color: #000000;
     font-weight: 600;
@@ -244,4 +247,28 @@ button#gn-language-selector {
 }
 .msgapi .gn-card-grid .gn-card-grid-container{
     min-height: inherit;
+}
+.msgapi #gn-catalogue .gn-card-grid-container{
+    padding: 0 60px;
+    margin-top: 30px;
+}
+.msgapi .gn-card-grid{
+    background-color: transparent;
+}
+.msgapi .gn-filters-menu{
+    background-color: transparent !important;
+    font-weight: 600;
+}
+.gn-menu-fill .gn-success-changes-icon {
+    background-color: #fe9696;
+    border-color: #777777;
+    padding: 12px 20px;
+}
+.gn-menu-fill .gn-success-changes-icon:hover,  .gn-menu-fill .gn-success-changes-icon:focus{
+    background-color: #777777;
+    border-color: #777777;
+    box-shadow: none;
+}
+.msgapi .gn-resource-card .card-text {
+    font-size: 16px;
 }
